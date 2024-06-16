@@ -75,7 +75,7 @@ public class MainController implements Initializable {
 
         if(playButton.getText().equals("Play")){
             beginTimer();
-            mediaPlayer.play();
+            mediaPlayer.play();   //comit
             playButton.setText("Pause");
         }
         else if(playButton.getText().equals("Pause")){
